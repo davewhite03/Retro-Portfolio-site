@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+.cls-1-2 {
+  fill: #fceca4;
+}
+.cls-2-2 {
+  fill: #2054fc;
+}
+#waterfall1 {
+  animation: fall 1s infinite linear;
+}
+#waterfall2 {
+  animation: fall2 1s infinite linear;
+}
+#river1 {
+  animation: fall 1s infinite linear;
+}
+#river2 {
+  animation: fall2 1s infinite linear;
+}
+
+@keyframes fall {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fall2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

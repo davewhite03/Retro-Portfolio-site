@@ -1,0 +1,36 @@
+input {
+  border-radius: 1rem;
+}
+.send {
+  background-color: #0aa1dd;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.name {
+  margin: 2rem;
+  border-bottom: #0aa1dd 0.2rem solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.email {
+  border-bottom: #0aa1dd 0.2rem solid;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.message {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.messageInput {
+  margin-left: 10rem;
+  margin-right: 0.5rem;
+}
+@media only screen and (max-width: 538px) {
+  .messageInput {
+    margin-left: 5rem;
+    margin-right: 0.5rem;
+  }
+}

@@ -1,0 +1,164 @@
+.cls-1 {
+  fill: #fbbc9f;
+}
+.cls-2 {
+  fill: #5daccb;
+}
+.cls-3 {
+  fill: #f9cbb8;
+}
+.cls-4 {
+  fill: gray;
+}
+.cls-5 {
+  fill: #42433f;
+}
+.cls-6 {
+  fill: #24242d;
+}
+.cls-7 {
+  fill: #5b548f;
+}
+.cls-8 {
+  fill: #bcaea0;
+}
+.cls-9 {
+  fill: #cea996;
+}
+.cls-10 {
+  fill: #c6c5c1;
+}
+.cls-11 {
+  fill: #222225;
+}
+.cls-12 {
+  fill: #3e2c23;
+}
+.cls-13 {
+  fill: #c4957e;
+}
+.cls-14 {
+  fill: #632f20;
+}
+.cls-15 {
+  fill: #532111;
+}
+.cls-16 {
+  fill: #939598;
+}
+.cls-17 {
+  fill: #34271d;
+}
+#left-lids {
+  opacity: 0;
+  animation: lids 10s infinite;
+}
+#right-lids {
+  opacity: 0;
+  animation: lids 10s infinite;
+}
+
+#head {
+  animation: head 10s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes tilt {
+  from {
+    transform: rotatez(0deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}
+#pen {
+  animation: pupil 0.5s infinite;
+}
+
+@keyframes pupil {
+  0% {
+    transform: translatez(-10deg);
+  }
+  10% {
+    transform: translatez(10deg);
+  }
+  14% {
+    transform: translatez(-10deg);
+  }
+  20% {
+    transform: translatez(10deg);
+  }
+  25% {
+    transform: translatez(-10deg);
+  }
+  30% {
+    transform: translatez(10deg);
+  }
+  40% {
+    transform: translatez(-10deg);
+  }
+
+  60% {
+    transform: translatez(10deg);
+  }
+  65% {
+    transform: translatez(-10deg);
+  }
+
+  70% {
+    transform: translatez(10deg);
+  }
+
+  80% {
+    transform: translatez(-10deg);
+  }
+
+  90% {
+    transform: translatez(10deg);
+  }
+  100% {
+    transform: translatez(-10deg);
+  }
+}
+
+@keyframes head {
+  0% {
+    transform: rotatez(0deg);
+  }
+  10% {
+    transform: rotatez(0deg);
+  }
+
+  20% {
+    transform: rotatez(0deg);
+  }
+
+  30% {
+    transform: rotatez(-25deg);
+  }
+  40% {
+    transform: rotatez(-25deg);
+  }
+  50% {
+    transform: rotatez(-25deg);
+  }
+
+  60% {
+    transform: rotatez(0deg);
+  }
+
+  70% {
+    transform: rotatez(0);
+  }
+
+  80% {
+    transform: rotatez(0);
+  }
+
+  90% {
+    transform: rotatez(0);
+  }
+  100% {
+    transform: rotatez(0deg);
+  }
+}
